@@ -33,14 +33,14 @@ public class VistaProductos {
     
     public int buscarProductoVenta(){
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese el codigo del producto a vender: ");
+        System.out.println("Ingrese el codigo del producto que se va a vender: ");
         int codigo = teclado.nextInt();
         return codigo;
     }
     
     public int ingresarCantidadVenta(){
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Ingrese la cantidad de producto a vender: ");
+        System.out.println("Ingrese la cantidad de producto que se va a vender: ");
         int cantidad = teclado.nextInt();
         return cantidad;
     }  
